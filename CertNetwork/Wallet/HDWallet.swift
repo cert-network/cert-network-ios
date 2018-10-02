@@ -12,7 +12,7 @@ import HDWalletKitSwift
 class HDWallet {
     
     static let shared = HDWallet()
-    
+    // your  mnemonic
     let seed = Mnemonic.createSeed(mnemonic: "xxxxxxxxx")
     
     var wallet: Wallet {

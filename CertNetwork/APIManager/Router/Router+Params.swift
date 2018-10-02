@@ -13,7 +13,7 @@ extension Router {
             return [
                 "address": params.address,
                 "category": params.category,
-                "private": params.privateKey,
+                "private": params.privateKey, //not recommend
                 "name": params.name,
                 "certId": params.certId
             ]
